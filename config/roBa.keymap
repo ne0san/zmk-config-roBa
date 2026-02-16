@@ -97,19 +97,19 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                           &trans          &trans          &trans        &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans      &trans          &trans          &trans        &trans           &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &kp DELETE  &trans                                                         &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                           &trans  &trans    &kp UP_ARROW  &trans     &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans      &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans      &trans  &trans    &trans        &trans     &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &kp DELETE  &trans                                     &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans                &trans          &trans                &trans                         &kp F1     &kp F2     &kp F3         &kp F4  &kp F5
-&trans  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &trans                &trans  &trans      &kp F13    &kp F6     &kp F7     &kp F8         &kp F9  &kp F10
-&trans  &trans                &trans          &kp LG(LS(NUMBER_3))  &trans  &trans      &kp RG(C)  &kp RG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &kp F11
-&trans  &trans                &trans          &trans                &trans  &trans      &trans     &trans                                       &kp F12
+&trans  &trans  &kp LG(LS(NUMBER_3))      &kp LS(LG(NUMBER_4))      &kp LS(LG(N5))                             &kp F1     &kp F2     &kp F3         &kp F4  &kp F5
+&trans  &trans  &kp LG(LS(LC(NUMBER_3)))  &kp LG(LS(LC(NUMBER_4)))  &kp LS(LC(LG(N5)))  &trans      &kp F13    &kp F6     &kp F7     &kp F8         &kp F9  &kp F10
+&trans  &trans  &trans                    &trans                    &trans              &trans      &kp RG(C)  &kp RG(V)  &kp LG(Z)  &kp LG(LS(Z))  &trans  &kp F11
+&trans  &trans  &trans                    &trans                    &trans              &trans      &trans     &trans                                       &kp F12
             >;
         };
 
