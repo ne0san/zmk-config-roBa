@@ -4,8 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "hold-preferred";
+    flavor = "balanced";
     quick-tap-ms = <0>;
+    tapping-term-ms = <150>;
 };
 
 &trackball {
@@ -61,7 +62,7 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
         };
 
         mt_to_layer_0: mt_to_layer_0 {
@@ -70,7 +71,7 @@
             bindings = <&kp>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
         };
     };
 
